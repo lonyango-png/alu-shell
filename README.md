@@ -1,1 +1,2 @@
-# ALU Shell Shell scripting basics project
+# alu-shell
+0-hello_world: prints Hello, World
