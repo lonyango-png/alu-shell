@@ -1,2 +1,2 @@
 #!/bin/bash
-awk '{printf "%c", substr($0, 1, 1)} END {printf "\n"}' "$1"
+cut -c1 | paste -sd '\0' | tr '[:lower:]' '[:upper:]'
